@@ -1,0 +1,810 @@
+﻿[
+  {
+    "Description": "Credits",
+    "Notes": "Thanks to Nenkai for helping with solving the offsets."
+  },
+  {
+    "Description": "Version",
+    "Notes": "DON'T EDIT UNLESS YOU KNOW WHAT YOU ARE DOING",
+    "OffsetStart": 0,
+    "OffsetEnd": 3,
+    "HexColor": "#FF0000"
+  },
+  {
+    "Description": "Header size",
+    "Notes": "DON'T EDIT UNLESS YOU KNOW WHAT YOU ARE DOING",
+    "OffsetStart": 4,
+    "OffsetEnd": 7,
+    "HexColor": "#FF0000"
+  },
+  {
+    "Description": "Target",
+    "Notes": "",
+    "OffsetStart": 9,
+    "OffsetEnd": 9
+  },
+  {
+    "Description": "TeamId",
+    "Notes": "",
+    "OffsetStart": 10,
+    "OffsetEnd": 10
+  },
+  {
+    "Description": "Race class Id",
+    "Notes": "",
+    "OffsetStart": 11,
+    "OffsetEnd": 11
+  },
+  {
+    "Description": "Odometer",
+    "Notes": "Distance driven",
+    "OffsetStart": 12,
+    "OffsetEnd": 15
+  },
+  {
+    "Description": "Engine life",
+    "OffsetStart": 16,
+    "OffsetEnd": 19
+  },
+  {
+    "Description": "Oil life",
+    "OffsetStart": 20,
+    "OffsetEnd": 23
+  },
+  {
+    "Description": "Body life",
+    "OffsetStart": 24,
+    "OffsetEnd": 27
+  },
+  {
+    "Description": "Dirtiness (100)",
+    "OffsetStart": 28,
+    "OffsetEnd": 28
+  },
+  {
+    "Description": "Rain (X)",
+    "OffsetStart": 29,
+    "OffsetEnd": 29
+  },
+  {
+    "Description": "Body coating",
+    "OffsetStart": 30,
+    "OffsetEnd": 30
+  },
+  {
+    "Description": "Garage ID",
+    "Notes": "DON'T EDIT UNLESS YOU KNOW WHAT YOU ARE DOING",
+    "OffsetStart": 36,
+    "OffsetEnd": 39,
+    "HexColor": "#FF0000"
+  },
+  {
+    "Description": "Ride count",
+    "OffsetStart": 40,
+    "OffsetEnd": 41
+  },
+  {
+    "Description": "Wins",
+    "OffsetStart": 42,
+    "OffsetEnd": 43
+  },
+  {
+    "Description": "Special gas ratio 100",
+    "OffsetStart": 44,
+    "OffsetEnd": 44
+  },
+  {
+    "Description": "Special gas liter",
+    "OffsetStart": 45,
+    "OffsetEnd": 45
+  },
+  {
+    "Description": "NOS ratio 100",
+    "OffsetStart": 46,
+    "OffsetEnd": 46
+  },
+  {
+    "Description": "NOS duration sec",
+    "OffsetStart": 47,
+    "OffsetEnd": 47
+  },
+  {
+    "Description": "Paint",
+    "Notes": "Body color ((Paint >> 13) & 0x1FFF), Rim color (Paint & 0x1FFF), Rim dealership color ((Paint >> 26))",
+    "OffsetStart": 52,
+    "OffsetEnd": 55
+  },
+  {
+    "Description": "Decken type",
+    "OffsetStart": 56,
+    "OffsetEnd": 56
+  },
+  {
+    "Description": "Decken number",
+    "OffsetStart": 57,
+    "OffsetEnd": 57
+  },
+  {
+    "Description": "Tyres bought",
+    "OffsetStart": 69,
+    "OffsetEnd": 75
+  },
+  {
+    "Description": "Parts version",
+    "Notes": "DON'T EDIT UNLESS YOU KNOW WHAT YOU ARE DOING",
+    "OffsetStart": 124,
+    "OffsetEnd": 125,
+    "HexColor": "#FF0000"
+  },
+  {
+    "Description": "Parts size",
+    "Notes": "DON'T EDIT UNLESS YOU KNOW WHAT YOU ARE DOING",
+    "OffsetStart": 126,
+    "OffsetEnd": 127,
+    "HexColor": "#FF0000"
+  },
+  {
+    "Description": "Normal car code",
+    "OffsetStart": 128,
+    "OffsetEnd": 135
+  },
+  {
+    "Description": "Tuned car code",
+    "Notes": "Used by AI bots",
+    "OffsetStart": 136,
+    "OffsetEnd": 143
+  },
+  {
+    "Description": "Color",
+    "Notes": "Dealership color",
+    "OffsetStart": 144,
+    "OffsetEnd": 144
+  },
+  {
+    "Description": "Rims (Front)",
+    "OffsetStart": 145,
+    "OffsetEnd": 148
+  },
+  {
+    "Description": "Rims (Rear)",
+    "OffsetStart": 149,
+    "OffsetEnd": 152
+  },
+  {
+    "Description": "Tyres (Front)",
+    "OffsetStart": 157,
+    "OffsetEnd": 160
+  },
+  {
+    "Description": "Tyres (Rear)",
+    "OffsetStart": 165,
+    "OffsetEnd": 168
+  },
+  {
+    "Description": "Brakes",
+    "OffsetStart": 169,
+    "OffsetEnd": 172
+  },
+  {
+    "Description": "Brake controller",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 173,
+    "OffsetEnd": 176
+  },
+  {
+    "Description": "Chassis",
+    "OffsetStart": 177,
+    "OffsetEnd": 180
+  },
+  {
+    "Description": "Engine",
+    "OffsetStart": 181,
+    "OffsetEnd": 184
+  },
+  {
+    "Description": "Drivetrain",
+    "OffsetStart": 185,
+    "OffsetEnd": 188
+  },
+  {
+    "Description": "Transmission",
+    "OffsetStart": 189,
+    "OffsetEnd": 192
+  },
+  {
+    "Description": "Suspension",
+    "OffsetStart": 193,
+    "OffsetEnd": 196
+  },
+  {
+    "Description": "LSD",
+    "OffsetStart": 197,
+    "OffsetEnd": 200
+  },
+  {
+    "Description": "Steer",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 201,
+    "OffsetEnd": 204
+  },
+  {
+    "Description": "Weight reduction",
+    "OffsetStart": 205,
+    "OffsetEnd": 208
+  },
+  {
+    "Description": "Racing modify",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 209,
+    "OffsetEnd": 212
+  },
+  {
+    "Description": "Displacement",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 213,
+    "OffsetEnd": 216
+  },
+  {
+    "Description": "ECU",
+    "OffsetStart": 217,
+    "OffsetEnd": 220
+  },
+  {
+    "Description": "Engine tuning",
+    "OffsetStart": 221,
+    "OffsetEnd": 224
+  },
+  {
+    "Description": "Turbo charger",
+    "OffsetStart": 225,
+    "OffsetEnd": 228
+  },
+  {
+    "Description": "Flywheel",
+    "OffsetStart": 229,
+    "OffsetEnd": 232
+  },
+  {
+    "Description": "Clutch",
+    "OffsetStart": 233,
+    "OffsetEnd": 236
+  },
+  {
+    "Description": "Propeller shaft",
+    "OffsetStart": 237,
+    "OffsetEnd": 240
+  },
+  {
+    "Description": "Exhaust pipe",
+    "OffsetStart": 241,
+    "OffsetEnd": 244
+  },
+  {
+    "Description": "Intercooler",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 245,
+    "OffsetEnd": 248
+  },
+  {
+    "Description": "ASCC(ASM)",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 249,
+    "OffsetEnd": 252
+  },
+  {
+    "Description": "TCSC(TCS)",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 253,
+    "OffsetEnd": 256
+  },
+  {
+    "Description": "Variation ID",
+    "Notes": "Car ID pointing to the VARIATION table",
+    "OffsetStart": 257,
+    "OffsetEnd": 260
+  },
+  {
+    "Description": "Supercharger",
+    "Notes": "",
+    "OffsetStart": 261,
+    "OffsetEnd": 264
+  },
+  {
+    "Description": "Intake manifold",
+    "Notes": "",
+    "OffsetStart": 265,
+    "OffsetEnd": 268
+  },
+  {
+    "Description": "Exhaust manifold",
+    "Notes": "",
+    "OffsetStart": 269,
+    "OffsetEnd": 272
+  },
+  {
+    "Description": "Catalytic converter",
+    "Notes": "",
+    "OffsetStart": 273,
+    "OffsetEnd": 276
+  },
+  {
+    "Description": "Air filter",
+    "Notes": "",
+    "OffsetStart": 277,
+    "OffsetEnd": 280
+  },
+  {
+    "Description": "NOS?",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 281,
+    "OffsetEnd": 284
+  },
+  {
+    "Description": "Window weight reduction",
+    "Notes": "",
+    "OffsetStart": 285,
+    "OffsetEnd": 288
+  },
+  {
+    "Description": "Carbon bonnet",
+    "Notes": "",
+    "OffsetStart": 289,
+    "OffsetEnd": 292
+  },
+  {
+    "Description": "Front aero (Body kit)",
+    "Notes": "",
+    "OffsetStart": 293,
+    "OffsetEnd": 296
+  },
+  {
+    "Description": "Rear aero (Flat floors)",
+    "Notes": "",
+    "OffsetStart": 297,
+    "OffsetEnd": 300
+  },
+  {
+    "Description": "Extension (Freedom)",
+    "Notes": "",
+    "OffsetStart": 301,
+    "OffsetEnd": 304
+  },
+  {
+    "Description": "Wing",
+    "Notes": "",
+    "OffsetStart": 305,
+    "OffsetEnd": 308
+  },
+  {
+    "Description": "Rigidity improvement",
+    "Notes": "",
+    "OffsetStart": 313,
+    "OffsetEnd": 316
+  },
+  {
+    "Description": "NOS",
+    "Notes": "GENERIC_ITEMS NOS",
+    "OffsetStart": 317,
+    "OffsetEnd": 320
+  },
+  {
+    "Description": "Reverse gear",
+    "Notes": "",
+    "OffsetStart": 321,
+    "OffsetEnd": 322
+  },
+  {
+    "Description": "1st gear",
+    "Notes": "",
+    "OffsetStart": 323,
+    "OffsetEnd": 324
+  },
+  {
+    "Description": "2nd gear",
+    "Notes": "",
+    "OffsetStart": 325,
+    "OffsetEnd": 326
+  },
+  {
+    "Description": "3rd gear",
+    "Notes": "",
+    "OffsetStart": 327,
+    "OffsetEnd": 328
+  },
+  {
+    "Description": "4th gear",
+    "Notes": "",
+    "OffsetStart": 329,
+    "OffsetEnd": 330
+  },
+  {
+    "Description": "5th gear",
+    "Notes": "",
+    "OffsetStart": 331,
+    "OffsetEnd": 332
+  },
+  {
+    "Description": "6th gear",
+    "Notes": "",
+    "OffsetStart": 333,
+    "OffsetEnd": 334
+  },
+  {
+    "Description": "7th gear",
+    "Notes": "",
+    "OffsetStart": 335,
+    "OffsetEnd": 336
+  },
+  {
+    "Description": "8th gear",
+    "Notes": "",
+    "OffsetStart": 337,
+    "OffsetEnd": 338
+  },
+  {
+    "Description": "9th gear",
+    "Notes": "",
+    "OffsetStart": 339,
+    "OffsetEnd": 340
+  },
+  {
+    "Description": "10th gear",
+    "Notes": "",
+    "OffsetStart": 341,
+    "OffsetEnd": 342
+  },
+  {
+    "Description": "11th gear",
+    "Notes": "",
+    "OffsetStart": 343,
+    "OffsetEnd": 344
+  },
+  {
+    "Description": "Final gear",
+    "Notes": "",
+    "OffsetStart": 345,
+    "OffsetEnd": 346
+  },
+  {
+    "Description": "Max speed",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 347,
+    "OffsetEnd": 347
+  },
+  {
+    "Description": "Extra final gear",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 348,
+    "OffsetEnd": 349
+  },
+  {
+    "Description": "Torque split",
+    "Notes": "",
+    "OffsetStart": 350,
+    "OffsetEnd": 350
+  },
+  {
+    "Description": "ABS (front)",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 351,
+    "OffsetEnd": 351
+  },
+  {
+    "Description": "ABS (rear)",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 352,
+    "OffsetEnd": 352
+  },
+  {
+    "Description": "Downforce (front)",
+    "Notes": "",
+    "OffsetStart": 353,
+    "OffsetEnd": 353
+  },
+  {
+    "Description": "Downforce (rear)",
+    "Notes": "",
+    "OffsetStart": 354,
+    "OffsetEnd": 354
+  },
+  {
+    "Description": "boost1",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 355,
+    "OffsetEnd": 355
+  },
+  {
+    "Description": "peakrpm1",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 356,
+    "OffsetEnd": 356
+  },
+  {
+    "Description": "response1",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 357,
+    "OffsetEnd": 357
+  },
+  {
+    "Description": "boost2",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 358,
+    "OffsetEnd": 358
+  },
+  {
+    "Description": "peakrpm2",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 359,
+    "OffsetEnd": 359
+  },
+  {
+    "Description": "response2",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 360,
+    "OffsetEnd": 360
+  },
+  {
+    "Description": "Camber (front)",
+    "Notes": "",
+    "OffsetStart": 361,
+    "OffsetEnd": 361
+  },
+  {
+    "Description": "Camber (rear)",
+    "Notes": "",
+    "OffsetStart": 362,
+    "OffsetEnd": 362
+  },
+  {
+    "Description": "Ride height (front)",
+    "Notes": "",
+    "OffsetStart": 363,
+    "OffsetEnd": 364
+  },
+  {
+    "Description": "Ride height (rear)",
+    "Notes": "",
+    "OffsetStart": 365,
+    "OffsetEnd": 366
+  },
+  {
+    "Description": "Toe (front)",
+    "Notes": "",
+    "OffsetStart": 367,
+    "OffsetEnd": 367
+  },
+  {
+    "Description": "Toe (rear)",
+    "Notes": "",
+    "OffsetStart": 368,
+    "OffsetEnd": 368
+  },
+  {
+    "Description": "Spring rate (front)",
+    "Notes": "",
+    "OffsetStart": 369,
+    "OffsetEnd": 369
+  },
+  {
+    "Description": "Spring rate (rear)",
+    "Notes": "",
+    "OffsetStart": 370,
+    "OffsetEnd": 370
+  },
+  {
+    "Description": "Lever ratio (front)",
+    "Notes": "",
+    "OffsetStart": 371,
+    "OffsetEnd": 371
+  },
+  {
+    "Description": "Lever ratio (rear)",
+    "Notes": "",
+    "OffsetStart": 372,
+    "OffsetEnd": 372
+  },
+  {
+    "Description": "Damper F1B (front)",
+    "Notes": "",
+    "OffsetStart": 373,
+    "OffsetEnd": 373
+  },
+  {
+    "Description": "Damper F2B (front)",
+    "Notes": "",
+    "OffsetStart": 374,
+    "OffsetEnd": 374
+  },
+  {
+    "Description": "Damper F1R (front)",
+    "Notes": "",
+    "OffsetStart": 375,
+    "OffsetEnd": 375
+  },
+  {
+    "Description": "Damper F2R (front)",
+    "Notes": "",
+    "OffsetStart": 376,
+    "OffsetEnd": 376
+  },
+  {
+    "Description": "Damper F1B (rear)",
+    "Notes": "",
+    "OffsetStart": 377,
+    "OffsetEnd": 377
+  },
+  {
+    "Description": "Damper F2B (rear)",
+    "Notes": "",
+    "OffsetStart": 378,
+    "OffsetEnd": 378
+  },
+  {
+    "Description": "Damper F1R (rear)",
+    "Notes": "",
+    "OffsetStart": 379,
+    "OffsetEnd": 379
+  },
+  {
+    "Description": "Damper F2R (rear)",
+    "Notes": "",
+    "OffsetStart": 380,
+    "OffsetEnd": 380
+  },
+  {
+    "Description": "Stabilizer (front)",
+    "Notes": "",
+    "OffsetStart": 381,
+    "OffsetEnd": 381
+  },
+  {
+    "Description": "Stabilizer (rear)",
+    "Notes": "",
+    "OffsetStart": 382,
+    "OffsetEnd": 382
+  },
+  {
+    "Description": "Initial torque (front)",
+    "Notes": "",
+    "OffsetStart": 383,
+    "OffsetEnd": 383
+  },
+  {
+    "Description": "Initial torque (rear)",
+    "Notes": "",
+    "OffsetStart": 384,
+    "OffsetEnd": 384
+  },
+  {
+    "Description": "Acceleration sensitivity (front)",
+    "Notes": "",
+    "OffsetStart": 385,
+    "OffsetEnd": 385
+  },
+  {
+    "Description": "Acceleration sensitivity (rear)",
+    "Notes": "",
+    "OffsetStart": 386,
+    "OffsetEnd": 386
+  },
+  {
+    "Description": "Braking sensitivity (front)",
+    "Notes": "",
+    "OffsetStart": 387,
+    "OffsetEnd": 387
+  },
+  {
+    "Description": "Braking sensitivity (rear)",
+    "Notes": "",
+    "OffsetStart": 388,
+    "OffsetEnd": 388
+  },
+  {
+    "Description": "TCSUserValue",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 389,
+    "OffsetEnd": 389
+  },
+  {
+    "Description": "VSCparam1",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 390,
+    "OffsetEnd": 390
+  },
+  {
+    "Description": "VSCparamB",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 391,
+    "OffsetEnd": 391
+  },
+  {
+    "Description": "VUCparam1",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 392,
+    "OffsetEnd": 392
+  },
+  {
+    "Description": "VUCparamB",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 393,
+    "OffsetEnd": 393
+  },
+  {
+    "Description": "Ballast (KG)",
+    "Notes": "",
+    "OffsetStart": 394,
+    "OffsetEnd": 394
+  },
+  {
+    "Description": "Ballast (Position)",
+    "Notes": "",
+    "OffsetStart": 395,
+    "OffsetEnd": 395
+  },
+  {
+    "Description": "Steer limit",
+    "Notes": "",
+    "OffsetStart": 396,
+    "OffsetEnd": 396
+  },
+  {
+    "Description": "Power multiplier",
+    "Notes": "",
+    "OffsetStart": 397,
+    "OffsetEnd": 398
+  },
+  {
+    "Description": "Weight multiplier",
+    "Notes": "",
+    "OffsetStart": 400,
+    "OffsetEnd": 400
+  },
+  {
+    "Description": "NOS torque volume",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 405,
+    "OffsetEnd": 405
+  },
+  {
+    "Description": "Grip multiplier",
+    "Notes": "",
+    "OffsetStart": 406,
+    "OffsetEnd": 406
+  },
+  {
+    "Description": "Break balance (front)",
+    "Notes": "",
+    "OffsetStart": 407,
+    "OffsetEnd": 407
+  },
+  {
+    "Description": "Break balance (rear)",
+    "Notes": "",
+    "OffsetStart": 408,
+    "OffsetEnd": 408
+  },
+  {
+    "Description": "ABS cornering control level",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 409,
+    "OffsetEnd": 409
+  },
+  {
+    "Description": "Gas capacity",
+    "Notes": "Unconfirmed",
+    "OffsetStart": 414,
+    "OffsetEnd": 414
+  },
+  {
+    "Description": "Engine limit",
+    "Notes": "",
+    "OffsetStart": 415,
+    "OffsetEnd": 416
+  },
+  {
+    "Description": "Horn",
+    "Notes": "",
+    "OffsetStart": 417,
+    "OffsetEnd": 420
+  }
+]
