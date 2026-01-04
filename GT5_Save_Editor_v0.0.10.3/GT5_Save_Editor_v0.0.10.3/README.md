@@ -112,7 +112,15 @@ Le Save Editor possède un onglet **DLC**.
 
 Ce que tu peux faire de façon “clean” :
 - Ouvrir ta sauvegarde : `File` → `Open`
-- Aller dans **DLC tab** pour consulter l’état / les flags
+- Aller dans l’onglet **DLC** pour consulter l’état.
+- ✅ Coche l’option "Persist DLC’s without license files (vou)"
+  
+- Vous avez deux options ici : « Install » ou « Mark as installed ». Celui que vous choisissez dépend de vous, mais je vous recommande d’en choisir un.
+  
+    - Cliquer sur "<b>Install</b>" installera le DLC et vous affichera les tickets pour les voitures, et l’éditeur vous enverra un message indiquant que l’installation a été faite.
+    - Cliquer sur "<b>Mark as installed</b>" les installera sans vous donner les tickets correspondants.
+
+      
 - Enregistrer : `File` → `Save`
 
 ⚠️ Ce README n’explique pas l’usage d’options visant à simuler une installation ou bypass des fichiers/licences.
