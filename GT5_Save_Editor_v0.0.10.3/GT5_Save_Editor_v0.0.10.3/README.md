@@ -114,7 +114,7 @@ Ce que tu peux faire de façon “clean” :
 - Ouvrir ta sauvegarde : `File` → `Open`
 - Aller dans l’onglet **DLC** pour consulter l’état.
 - ✅ Coche l’option "Persist DLC’s without license files (vou)"
-  
+- Choisissez votre **DLC** ! Il suffit de **cliquer sur le DLC que vous souhaitez** et apparaîtra une fenêtre : 
 - Vous avez deux options ici : « Install » ou « Mark as installed ». Celui que vous choisissez dépend de vous, mais je vous recommande d’en choisir un.
   
     - Cliquer sur "<b>Install</b>" installera le DLC et vous affichera les tickets pour les voitures, et l’éditeur vous enverra un message indiquant que l’installation a été faite.
