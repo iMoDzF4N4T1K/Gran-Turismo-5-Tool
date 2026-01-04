@@ -23,7 +23,7 @@
   <a href="#-pré-requis">Pré-requis</a> •
   <a href="#-utilisation-ps3">PS3</a> •
   <a href="#-utilisation-rpcs3">RPCS3</a> •
-  <a href="#-title-id--savedata">Title ID</a> •
+  <a href="#-labels--title-ids-gran-turismo-5-version-normale">Labels</a> •
   <a href="#-licence--crédits">Licence</a>
 </p>
 
@@ -117,3 +117,60 @@ Les sauvegardes sont au même emplacement “logique” que sur PS3, dans le dos
 
 ```txt
 dev_hdd0\home\00000001\savedata\
+```
+
+Dans ce dossier, tu trouveras **un répertoire par jeu**, identifié par le **Title ID** (ex: `BCES00569`, `BCUS98114`, etc.).
+
+✅ Exemple (structure typique — le nom peut légèrement varier selon les dumps/config) :
+```txt
+dev_hdd0\home\00000001\savedata\
+ ├─ BCES00569-GAME\
+ ├─ BCUS98114-GAME\
+ └─ ...
+```
+
+### 🔎 Trouver rapidement le bon dossier
+- Ouvre `dev_hdd0\home\00000001\savedata\`
+- Cherche un dossier qui commence par un **Title ID GT5** (liste juste en dessous)
+- C’est **ce dossier** que tu donnes au tool (ou dans lequel tu récupères ta save)
+
+<p align="center">
+  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
+</p>
+
+## 🆔 Labels / Title IDs (Gran Turismo 5 **version normale**)
+
+Voici les **Title IDs connus** pour **Gran Turismo 5** (base jeu, toutes régions/variantes confondues).  
+➡️ **Ne pas confondre avec Prologue** (qui a d’autres IDs).
+
+```txt
+BCAS-20108
+BCAS-20151
+BCAS-20154
+BCAS-20164
+BCES-00569
+BCJB-95009
+BCJS-30001
+BCJS-30050
+BCJS-30100
+BCKS-10096
+BCUS-90696
+BCUS-98114
+BCUS-98272
+BCUS-98394
+BCUS-99267
+```
+
+<p align="center">
+  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
+</p>
+
+## 📝 Licence & Crédits
+
+- Licence du dépôt : **MIT** (voir `LICENSE`)
+- Crédits aux **auteurs originaux** des outils inclus (packs fournis tels quels).
+- Si un auteur souhaite une mention spécifique (ou un retrait), ouvrez une issue.
+
+<p align="center">
+  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/header.svg" alt="XMB Footer" />
+</p>
