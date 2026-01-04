@@ -123,8 +123,6 @@ Ce que tu peux faire de façon “clean” :
       
 - Enregistrer : `File` → `Save`
 
-⚠️ Ce README n’explique pas l’usage d’options visant à simuler une installation ou bypass des fichiers/licences.
-
 <p align="center">
   <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
 </p>
