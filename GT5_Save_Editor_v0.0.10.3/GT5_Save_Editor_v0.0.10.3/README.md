@@ -106,7 +106,7 @@ Dans ce dossier, tu as un répertoire par jeu (BCES / BCUS / etc.).
 
 <a id="dlc"></a>
 
-## 🎁 DLC tab — Usage “clean” (sans contournement)
+## 🎁 DLC
 
 Le Save Editor possède un onglet **DLC**.
 
