@@ -37,7 +37,6 @@
 Ce README sert de guide pour utiliser la partie **DLC** du **GT5 Save Editor** avec une sauvegarde **Gran Turismo 5** (PS3 ou RPCS3).
 
 > ⚠️ Important (légal & fair-play)  
-> Je ne fournis pas d’instructions pour contourner des licences DLC ou “débloquer” du contenu non acquis.  
 > Utilise l’éditeur uniquement pour gérer / restaurer du contenu que tu possèdes légitimement (et pour du offline).
 
 
