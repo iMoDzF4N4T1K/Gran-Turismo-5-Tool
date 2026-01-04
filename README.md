@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/header.svg" alt="header" />
+  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/header.svg" alt="XMB Header" />
 </p>
 
 <h1 align="center">🏁 Gran Turismo 5 Tool</h1>
 
 <p align="center">
-  <b>Pack d’outils pour manipuler / éditer des données de Gran Turismo 5 (PS3)</b><br/>
-  <sub>⚠️ Toujours faire une sauvegarde avant modification.</sub>
+  <b>Pack d’outils pour éditer / gérer des sauvegardes Gran Turismo 5 (PS3 / RPCS3)</b><br/>
+  <sub>⚠️ Utilisation à vos risques — faites toujours une copie de votre sauvegarde AVANT modification.</sub>
 </p>
 
 <p align="center">
@@ -17,18 +17,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PS3-Tools-5865F2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Save%20Editing-Toolkit-323330?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Gran%20Turismo%205-PS3-E34F26?style=for-the-badge" />
-</p>
-
-<p align="center">
   <a href="#-présentation">Présentation</a> •
+  <a href="#-compatibilité-très-important">Compatibilité</a> •
   <a href="#-contenu-du-dépôt">Contenu</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-utilisation">Utilisation</a> •
-  <a href="#%EF%B8%8F-sécurité--bonnes-pratiques">Bonnes pratiques</a> •
-  <a href="#-licence">Licence</a>
+  <a href="#-pré-requis">Pré-requis</a> •
+  <a href="#-utilisation-ps3">PS3</a> •
+  <a href="#-utilisation-rpcs3">RPCS3</a> •
+  <a href="#-title-id--savedata">Title ID</a> •
+  <a href="#-licence--crédits">Licence</a>
 </p>
 
 <p align="center">
@@ -37,11 +33,30 @@
 
 ## ✨ Présentation
 
-**Gran-Turismo-5-Tool** regroupe plusieurs éditeurs (save / garage / divers) pour **Gran Turismo 5**.
-Le but de ce dépôt est de centraliser les outils au même endroit, avec une structure claire.
+**Gran-Turismo-5-Tool** regroupe plusieurs outils “classiques” de la communauté pour travailler sur **Gran Turismo 5 (version normale)** :
+- édition de sauvegarde (progression / flags / divers selon l’outil),
+- édition du garage,
+- outils complémentaires.
 
-> ⚠️ **Disclaimer** : ces outils sont à utiliser **sur vos propres sauvegardes** et à vos risques.
-> Je recommande de tester **hors-ligne** et de garder une copie intacte de votre save.
+> ✅ Ici on parle de **Gran Turismo 5 “normal”** (pas Prologue / autres éditions).  
+> ✅ Toujours travailler sur une **copie** de votre sauvegarde, pas sur l’unique original.
+
+<p align="center">
+  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
+</p>
+
+## 🚨 Compatibilité (TRÈS IMPORTANT)
+
+### ✅ Version de jeu recommandée : **mise à jour 2.11 MAX**
+Pour utiliser les tools **sans mauvaises surprises**, il est fortement recommandé de rester en :
+- **GT5 ≤ 2.11** ✅  
+- **GT5 ≥ 2.12** ⚠️ certaines fonctions / champs peuvent ne plus fonctionner (ou ne plus s’appliquer correctement).
+
+> En clair : si tu veux “le meilleur taux de réussite”, **reste en 2.11**.
+
+### ✅ Sauvegarde requise : **save normale (pas un backup système)**
+- Utilise la **sauvegarde standard** du jeu (le dossier `SAVEDATA` avec `PARAM.SFO`, etc.)
+- ❌ Pas un **backup complet** fait via l’outil de sauvegarde/restauration système PS3.
 
 <p align="center">
   <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
@@ -51,99 +66,54 @@ Le but de ce dépôt est de centraliser les outils au même endroit, avec une st
 
 Le dépôt est organisé en 3 packs :
 
-- **GT5_Editor_v 1.6 (2.14)**  
-  Éditeur “général” (outil principal / multi-fonctions selon la version).
+- **GT5_Editor_v 1.6 (2.14)**
+- **GT5_Garage_Editor_v131_slim355_q-k/Release**
+- **GT5_Save_Editor_v0.0.10.3/GT5_Save_Editor_v0.0.10.3**
 
-- **GT5_Garage_Editor_v131_slim355_q-k/Release**  
-  Outil orienté **garage** (voitures, inventaire, éléments liés au garage selon l’éditeur).
-
-- **GT5_Save_Editor_v0.0.10.3/GT5_Save_Editor_v0.0.10.3**  
-  Éditeur de **sauvegarde** (gestion plus large des données de save selon la version).
+> ℹ️ Même si un dossier mentionne une version plus haute, la règle “safe” ici reste : **2.11 max** (sinon certaines fonctions risquent de ne pas suivre).
 
 <p align="center">
   <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
 </p>
 
-## ⚙️ Prérequis
+## ⚙️ Pré-requis
 
-- **Windows** recommandé (la plupart de ces outils sont distribués en .exe)
-- Selon l’outil : **.NET Framework** / **VC++ Runtime** (si Windows vous le demande, installez-le)
-
-<p align="center">
-  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
-</p>
-
-## 📥 Installation
-
-1. Cliquez sur **Code → Download ZIP** (ou clonez le dépôt)
-2. Décompressez le ZIP
-3. Ouvrez le dossier de l’outil que vous voulez utiliser
-4. Lancez l’exécutable (si présent)
-
-> 💡 Astuce : créez un dossier `BACKUP` à côté et mettez-y **une copie** de votre sauvegarde avant chaque modif.
+- **Windows** (la plupart des outils sont distribués en `.exe`)
+- **Gran Turismo 5 (version normale)** en **2.11 max**
+- Une **sauvegarde GT5 normale** (format SAVEDATA)
 
 <p align="center">
   <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
 </p>
 
-## 🚀 Utilisation
+## 🕹️ Utilisation (PS3)
 
-### 1) Sauvegarde & préparation
-- Faites une **copie** de votre sauvegarde GT5 sur votre PC (via votre méthode habituelle)
-- Travaillez **uniquement** sur la copie
+### 1) Récupérer la save
+- Copie ta sauvegarde GT5 sur USB (méthode classique PS3)
 
-### 2) Édition
-- Lancez l’outil souhaité
-- Chargez votre fichier / dossier de sauvegarde
-- Appliquez vos modifications
-- Enregistrez / exportez
+### 2) Faire une copie (recommandé)
+- Duplique le dossier de save sur ton PC (ex: `SAVEDATA_GT5_ORIGINAL` → `SAVEDATA_GT5_EDIT`)
 
-### 3) Remise en place
-- Replacez la sauvegarde modifiée sur le support prévu
-- Testez en jeu
+### 3) Éditer
+- Lance l’outil voulu
+- Ouvre le dossier de save
+- Applique tes modifications
+- Sauvegarde / exporte
 
-> Si quelque chose ne va pas : restaurez la copie “clean” et recommencez progressivement.
-
-<p align="center">
-  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
-</p>
-
-## 🛡️ Sécurité & bonnes pratiques
-
-- ✅ **Toujours** faire une sauvegarde avant édition  
-- ✅ Modifier **petit à petit** (une modif → test → modif suivante)  
-- ✅ Tester **hors-ligne** en priorité  
-- ❌ Éviter de “tout maxer” d’un coup : risque de corruption / incohérences  
-- ❌ Ne jamais écraser votre unique sauvegarde d’origine  
+### 4) Réinjecter
+- Recopie la save modifiée sur USB
+- Remets-la sur PS3
+- Lance le jeu et vérifie
 
 <p align="center">
   <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
 </p>
 
-## 🤝 Contribuer
+## 🖥️ Utilisation (RPCS3)
 
-Les suggestions / corrections sont les bienvenues :
+✅ **RPCS3 est parfaitement fonctionnel** avec ces outils.
 
-- Ouvrir une **Issue** (bug, question, amélioration)
-- Proposer une **Pull Request** (README, organisation, ajout d’infos)
+Les sauvegardes sont au même emplacement “logique” que sur PS3, dans le dossier RPCS3 :
 
-<p align="center">
-  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
-</p>
-
-## 🙏 Crédits
-
-- Crédits aux **auteurs originaux** des outils inclus dans ce dépôt.
-- Si vous êtes auteur d’un outil présent ici et souhaitez une mention précise (ou un retrait), ouvrez une issue.
-
-<p align="center">
-  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/divider_1.svg" alt="divider" />
-</p>
-
-## 📝 Licence
-
-Ce dépôt est sous **licence MIT**. Voir le fichier `LICENSE`.
-
-<p align="center">
-  <img src="https://github.com/iMoDzF4N4T1K/iMoDzF4N4T1K/raw/main/assets/xmb/header.svg" alt="footer" />
-</p>
+```txt
+dev_hdd0\home\00000001\savedata\
